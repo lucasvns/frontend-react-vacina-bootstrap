@@ -195,9 +195,9 @@ const Registro = () => {
                                         </span>
                                         <hr />
                                         <form id="update-registro-form" onSubmit={handleUpdateRegistro}>
-                                            <label htmlFor="data">Data</label><br />
-                                            <input type="date" name="data" value={registro.data} onChange={handleChange} placeholder="Data do registro" />
-                                            <select aria-label="" name="idVacina" onChange={handleChange}>
+                                            <label htmlFor="data" className="control-label">Data</label><br />
+                                            <input type="date" name="data" className="form-control" value={registro.data} onChange={handleChange} placeholder="Data do registro" />
+                                            <select aria-label="" name="idVacina" className="form-control" onChange={handleChange}>
                                                 <option disabled selected >Selecione uma vacina</option>
                                                 {vacinaList.map(vacina => (
                                                     <option key={"registro_update_" + vacina.idvacina} value={vacina.idvacina}>{vacina.nomevacina}</option>
