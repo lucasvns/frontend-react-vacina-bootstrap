@@ -1,0 +1,15 @@
+.menu{
+    margin: 15px 0px;
+}
+
+.menu .navbar-nav{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .menu .navbar-nav{
+        padding-top: 10px;
+    }
+}

@@ -1,0 +1,26 @@
+#adicionar-registro-form {
+    text-align: center;
+}
+
+#adicionar-registro-form select{
+    margin: 1rem auto;
+}
+
+#adicionar-registro-form button{
+    margin: 1rem auto 2rem auto;
+}
+
+#update-registro-form input {
+    margin: 1rem auto;
+}
+
+#update-registro-form select{
+    margin: 1rem auto;
+}
+
+ #update-registro-form select+button{
+    margin: 2rem auto 1rem auto;
+}
+form+#table-list-registro{
+    margin: 1rem auto;
+}

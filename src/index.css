@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --color-background-login: #5d86a5;
+    --color-background-primary: #0b80da;
+    --color-background-primary-hover: #0a6fbd;
+
+    --color-background-secondary: #0c5186;
+    --color-background-secondary-hover: #1d74b6;
+
+    --color-background-info:#084298;
+    --color-border-info:#b6d4fe;
+    --color-info: #084298;
+
+    --color-background-success:#d1e7dd;
+    --color-border-success:#badbcc;
+    --color-success: #0f5132;
+
+    --color-background-danger:#f8d7da;
+    --color-border-danger:#f5c2c7;
+    --color-danger: #842029;
+
+}
+
+html, body{
+    overflow-x:hidden;
+    margin:0;
+    padding:0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-full{
+    width: 100%;
+    border: 0;
+}
+
+button{
+    border-radius: .5rem;
+    border-width: .1rem;
+    border-radius: .5rem;
+    line-height: 2rem;
+    font-size: 1.15rem;
+    font-weight: 550;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+input{
+    height: 2.7rem;
+}
+
+
+label{
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: .5rem;
+  }
+
+  tbody {
+    background-color: white;
+    color: black;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  th{
+      background-color: #212529;
+      color: white;
+  }
+
+  tr:hover{
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+  }
+
+  td center select {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: .4rem;
+  }
+
+
+  .modal {
+    display: block;
+    color: black;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+    
+  .close:hover,
+  .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  .modal-content>span{
+      font-size: 1.5rem;
+  }
+  .modal-content>span>span>#icon{
+        width: 1.5rem;
+  }
+
+  #iconTable:hover{
+      cursor: pointer;
+      color:#aaa;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+  }

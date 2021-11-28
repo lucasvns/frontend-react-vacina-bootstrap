@@ -1,0 +1,27 @@
+#adicionar-vacina-form{
+    text-align: center;
+}
+
+ #update-vacina-form{
+    text-align: center;
+    margin: 2rem auto;
+}
+/* 
+input , select, textarea{
+    margin: 1rem auto;
+    width: calc(100% - 1.075rem);
+    border-radius: 0.3rem;
+    padding: 0 0.7rem;
+    font-size: 1.15rem;
+    background-color: white;
+    border: 1px solid gray;
+    height: 40px;
+} */
+
+#adicionar-vacina-form input+button, #update-vacina-form input+button{
+   margin-top: 20px;
+}
+
+form+#table-list-vacina{
+    margin: 1.2rem auto;
+}
